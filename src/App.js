@@ -23,11 +23,11 @@ function App() {
 
           <Switch>
               <Route exact path="/" component={Games} />
-              <Route exact path="/top-streams" component={TopStreams} />
-              <Route exact path="/live/:slug" component={Live} />
-              <Route exact path="/game/:slug" component={GameStreams} />
-              <Route exact path="/resultats/:slug" component={Resultats} />
-              <Route exact path="/resultats/" component={Erreur} />
+              <Route exact path="https://ADaouadji.github.io//top-streams" component={TopStreams} />
+              <Route exact path="https://ADaouadji.github.io//live/:slug" component={Live} />
+              <Route exact path="https://ADaouadji.github.io//game/:slug" component={GameStreams} />
+              <Route exact path="https://ADaouadji.github.io//resultats/:slug" component={Resultats} />
+              <Route exact path="https://ADaouadji.github.io//resultats/" component={Erreur} />
           </Switch>
         </div>
     </Router>
