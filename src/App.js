@@ -22,7 +22,7 @@ function App() {
           <Sidebar />
 
           <Switch>
-              <Route exact path="/" component={Games} />
+              <Route exact path="https://ADaouadji.github.io/" component={Games} />
               <Route exact path="https://ADaouadji.github.io//top-streams" component={TopStreams} />
               <Route exact path="https://ADaouadji.github.io//live/:slug" component={Live} />
               <Route exact path="https://ADaouadji.github.io//game/:slug" component={GameStreams} />
